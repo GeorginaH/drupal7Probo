@@ -1,4 +1,4 @@
-name = Custom Features
+name = My probo test
 core = 7.x
 package = Features
 dependencies[] = admin_menu
