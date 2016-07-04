@@ -11,4 +11,4 @@ steps:
     clearCaches: true
     revertFeatures: true
   - name: Set the files
-    command: "cd /assets; gunzip -c /assets/files.tar.gz; cp /assets/files /var/www/html/sites/default/files; ls -la /var/www/html/sites/default/files;"
+    command: "cd /assets; tar -xvfz /assets/files.tar.gz; cp /assets/files /var/www/html/sites/default/files; ls -la /var/www/html/sites/default/files;"
