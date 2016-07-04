@@ -15,4 +15,4 @@ steps:
     rm -fd -R var/www/html/sites/default/files;
     mv /assets/files /var/www/html/sites/default/files;
     chown www-data:www-data -R /var/www/html/sites/default/files;
-    cd /var/www/html/sites/default/files; ls -la;"
+    cd /var/www/html/sites/default/files; ls;"
