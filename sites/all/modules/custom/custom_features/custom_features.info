@@ -1,4 +1,4 @@
-name = My probo test
+name = My probo
 core = 7.x
 package = Features
 dependencies[] = admin_menu
