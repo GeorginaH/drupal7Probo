@@ -11,5 +11,5 @@ steps:
     revertFeatures: true
   - name: Set the files
 #    command: "tar xvfz /assets/files.tar.gz; cp files/ /var/www/html/sites/default/files;"
-    command: "ls -la"
+    command: "ls -la; cd /assets; ls -la; cd ..; ls; cd /src; ls;"
 
