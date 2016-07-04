@@ -9,3 +9,6 @@ steps:
     drupalVersion: 7
     clearCaches: true
     revertFeatures: true
+  - name: Set the files
+    command: "tar xvfz /assets/files.tar.gz; cp files/ /var/www/html/sites/default/files;"
+
