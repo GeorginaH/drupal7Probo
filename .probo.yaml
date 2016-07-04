@@ -1,5 +1,6 @@
 assets:
   - probo.sql.gz
+  - files.tar.gz
 steps:
   - name: Probo site setup
     plugin: Drupal
@@ -9,3 +10,6 @@ steps:
     drupalVersion: 7
     clearCaches: true
     revertFeatures: true
+  - name: Set the files
+    command: "gunzip -c /assets/files.tar.gz"
+
