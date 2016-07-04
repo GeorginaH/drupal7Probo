@@ -6,8 +6,6 @@ steps:
     database: probo.sql.gz
     databaseGzipped: true
     databaseUpdates: true
-    runInstall: standard
-    installArgs: "--site-name='Install Profile Drupal Plugin Demo'"
     drupalVersion: 7
     clearCaches: true
     revertFeatures: true
