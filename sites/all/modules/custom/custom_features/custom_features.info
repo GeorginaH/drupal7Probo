@@ -1,0 +1,14 @@
+name = Custom Features
+core = 7.x
+package = Features
+dependencies[] = admin_menu
+dependencies[] = features
+dependencies[] = image
+dependencies[] = module_filter
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = body
+features[field_base][] = field_image
+features[field_instance][] = node-page-body
+features[field_instance][] = node-page-field_image
+features[node][] = page

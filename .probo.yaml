@@ -1,0 +1,13 @@
+assets:
+  - probo.sql.gz
+steps:
+  - name: Probo site setup
+    plugin: Drupal
+    database: probo.sql.gz
+    databaseGzipped: true
+    databaseUpdates: true
+    runInstall: standard
+    installArgs: "--site-name='Install Profile Drupal Plugin Demo'"
+    drupalVersion: 7
+    clearCaches: true
+    revertFeatures: true
