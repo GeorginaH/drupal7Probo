@@ -12,7 +12,7 @@ steps:
     revertFeatures: true
   - name: Set the files
     command: "cd /assets; tar xvfz /assets/files.tar.gz;
-    rm -fd -R var/www/html/sites/default/files;
+    rm -fd -R var/www/html/sites/default/files/;
     mv /assets/files /var/www/html/sites/default/files;
     chown www-data:www-data -R /var/www/html/sites/default/files;
-    cd /var/www/html/sites/default/files; ls;"
+    ls -la /var/www/html/sites/default/files;"
